@@ -156,6 +156,7 @@ public class UpdateUtil {
             setUpDateDownLoadNewVersion(activity, downloadManagerOptations.getNewVersionCode());
             DownloadApkProgressDialogFragment downloadApkProgressDialogFragment = DownloadApkProgressDialogFragment.newInstance(downloadManagerOptations.isForceUpdate(), downloadManagerOptations.getTitle(), downloadManagerOptations.getDescription());
             downloadApkProgressDialogFragment.show(activity.getFragmentManager(), "updateApk");
+
             return true;
         } else {
             return false;

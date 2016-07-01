@@ -1,14 +1,14 @@
 package com.xingliuhua.appupdate;
 
-import android.app.Activity;
 import android.app.DownloadManager;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
 import com.example.libappupdate.util.DownloadManagerOptations;
 import com.example.libappupdate.util.UpdateUtil;
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
